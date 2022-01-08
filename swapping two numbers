@@ -1,0 +1,27 @@
+/* WRITE A C PROGRAM TO PERFORM THE SWAPPING OF TWO NUMBERS WITHOUT USING A TEMPORARY VARIABLE*/
+#include <stdio.h>
+int main();
+{
+   //variable declarations
+   int a,b;
+
+   //input values
+   printf("Enter the values of a=");
+   scanf("%d,&a");
+   printf("Enter the vales of b=");
+   scanf("%d,&b");
+   
+   //Numbers before swapping
+   printf("Before Swapping...a: %d,b: %d\n",a,b);
+   
+   //swapping numbers
+   a=a+b;     //step1.
+   b=a-b;     //step2.
+   a=a-b;     //step3.
+   
+   //numbers after swapping
+   printf("After Swapping...a: %d, b: %d\n",a,b);
+   
+   return 0;
+  
+
